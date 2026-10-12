@@ -1,0 +1,13 @@
+{
+  "name": "latex-claude-code",
+  "description": "Render LaTeX math natively in Claude Code terminals",
+  "owner": {
+    "name": "AJ Khullar"
+  },
+  "plugins": [
+    {
+      "name": "latex",
+      "source": "./"
+    }
+  ]
+}

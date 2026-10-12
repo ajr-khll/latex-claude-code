@@ -1,0 +1,23 @@
+{
+  "name": "latex",
+  "version": "0.1.0",
+  "description": "Renders LaTeX math in replies as images in terminals with the kitty graphics protocol (kitty, Ghostty), Unicode elsewhere",
+  "author": {
+    "name": "AJ Khullar"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "color": {
+      "type": "string",
+      "title": "Equation color",
+      "description": "Hex color for rendered equations, or auto to follow the theme",
+      "default": "auto"
+    },
+    "scale": {
+      "type": "number",
+      "title": "Equation scale",
+      "description": "Size multiplier for rendered display math",
+      "default": 1
+    }
+  }
+}
